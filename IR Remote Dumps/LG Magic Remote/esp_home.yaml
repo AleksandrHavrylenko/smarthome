@@ -1,0 +1,67 @@
+# remote_receiver:
+#   pin:
+#     number: D5
+#     inverted: true
+#   dump: lg
+
+binary_sensor:
+  - platform: remote_receiver
+    name: "IR_LG_MAGIC_REMOTE_KEY_POWER"
+    lg:
+      data: 0x20DF10EF
+      nbits: 32
+  - platform: remote_receiver
+    name: "IR_LG_MAGIC_REMOTE_KEY_HOME"
+    lg:
+      data: 0x20DFC23D
+      nbits: 32
+  - platform: remote_receiver
+    name: "IR_LG_MAGIC_REMOTE_KEY_UP"
+    lg:
+      data: 0x20DF02FD
+      nbits: 32
+  - platform: remote_receiver
+    name: "IR_LG_MAGIC_REMOTE_KEY_DOWN"
+    lg:
+      data: 0x20DF827D
+      nbits: 32
+  - platform: remote_receiver
+    name: "IR_LG_MAGIC_REMOTE_KEY_LEFT"
+    lg:
+      data: 0x20DFE01F
+      nbits: 32
+  - platform: remote_receiver
+    name: "IR_LG_MAGIC_REMOTE_KEY_RIGHT"
+    lg:
+      data: 0x20DF609F
+      nbits: 32
+  - platform: remote_receiver
+    name: "IR_LG_MAGIC_REMOTE_KEY_OK"
+    lg:
+      data: 0x20DF946B
+      nbits: 32
+  - platform: remote_receiver
+    name: "IR_LG_MAGIC_REMOTE_KEY_VOLUMEUP"
+    lg:
+      data: 0x20DF40BF
+      nbits: 32
+  - platform: remote_receiver
+    name: "IR_LG_MAGIC_REMOTE_KEY_VOLUMEDOWN"
+    lg:
+      data: 0x20DFC03F
+      nbits: 32
+  - platform: remote_receiver
+    name: "IR_LG_MAGIC_REMOTE_KEY_CHANNELUP"
+    lg:
+      data: 0x20DF00FF
+      nbits: 32
+  - platform: remote_receiver
+    name: "IR_LG_MAGIC_REMOTE_KEY_CHANNELDOWN"
+    lg:
+      data: 0x20DF807F
+      nbits: 32
+  - platform: remote_receiver
+    name: "IR_LG_MAGIC_REMOTE_KEY_MUTE"
+    lg:
+      data: 0x20DF906F
+      nbits: 32

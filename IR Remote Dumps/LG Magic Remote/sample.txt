@@ -1,0 +1,20 @@
+LG Magic Remote(AKB732955)
+
+*************************************************
+INFO:
+nbits=32
+mode: lg
+*************************************************
+KEY_POWER:          0x20DF10EF
+KEY_HOME:           0x20DFC23D
+KEY_UP:             0x20DF02FD
+KEY_DOWN:           0x20DF827D
+KEY_LEFT:           0x20DFE01F
+KEY_RIGHT:          0x20DF609F
+KEY_OK:             0x20DF946B
+KEY_VOLUMEUP:       0x20DF40BF
+KEY_VOLUMEDOWN:     0x20DFC03F
+KEY_CHANNELUP:      0x20DF00FF
+KEY_CHANNELDOWN:    0x20DF807F
+KEY_MUTE:           0x20DF906F
+*************************************************
